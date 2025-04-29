@@ -1,15 +1,11 @@
-.App {
-  font-family: Georgia, serif;
-  text-align: center;
-  background: #f9f9f9;
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f7f7;
   color: #333;
 }
 
-.header {
-  padding: 1.5rem;
-  border-bottom: 1px solid #ccc;
-}
-
-.logo {
-  max-width: 300px;
+.App-header {
+  text-align: center;
+  margin-top: 10vh;
 }
