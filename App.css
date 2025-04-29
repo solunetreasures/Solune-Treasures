@@ -1,6 +1,15 @@
-body {
-  margin: 0;
-  font-family: 'Georgia', serif;
-  background-color: #f9f9f9;
+.App {
+  font-family: Georgia, serif;
+  text-align: center;
+  background: #f9f9f9;
   color: #333;
+}
+
+.header {
+  padding: 1.5rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo {
+  max-width: 300px;
 }

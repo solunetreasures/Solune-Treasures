@@ -1,11 +1,11 @@
-// Solune Treasures - Full Site with eBay and Checkout Integration
-// This is a React component file. Full deployment would require additional files like package.json, etc.
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './App.css';
+import App from './App';
 
-export default function SoluneTreasures() {
-  return (
-    <div>
-      <h1>Solune Treasures</h1>
-      <p>This is a placeholder for the live version of your React site. Your full code is already integrated in the working project above.</p>
-    </div>
-  );
-}
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
